@@ -1,6 +1,6 @@
 package main
 
-import "github.com/JrGustavo/practice_go/teclado"
+import "github.com/JrGustavo/practice_go/iteraciones"
 
 func main() {
 	//	//estado, texto := variables.ConviertoATexto(1588)
@@ -24,6 +24,8 @@ func main() {
 	//fmt.Print(numero)
 	//fmt.Print(texto)
 
-	teclado.IngresoNumeros()
+	//teclado.IngresoNumeros()
+
+	iteraciones.Iterar()
 
 }
