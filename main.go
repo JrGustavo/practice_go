@@ -1,6 +1,6 @@
 package main
 
-import "github.com/JrGustavo/practice_go/iteraciones"
+import "github.com/JrGustavo/practice_go/files"
 
 func main() {
 	//	//estado, texto := variables.ConviertoATexto(1588)
@@ -26,6 +26,12 @@ func main() {
 
 	//teclado.IngresoNumeros()
 
-	iteraciones.Iterar()
+	//fmt.Print(ejercicios.TablaMultiplicar())
+
+	//files.GrabaTabla()
+
+
+	files.LeoArchivo()
+
 
 }
