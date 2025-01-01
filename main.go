@@ -1,6 +1,6 @@
 package main
 
-import "github.com/JrGustavo/practice_go/files"
+import "github.com/JrGustavo/practice_go/arreglos_slices"
 
 func main() {
 	//	//estado, texto := variables.ConviertoATexto(1588)
@@ -30,8 +30,11 @@ func main() {
 
 	//files.GrabaTabla()
 
+	//files.LeoArchivo()
 
-	files.LeoArchivo()
+	//funciones.Calculos()
 
+	//funciones.LlamarClosure()
 
+	arreglos_slices.MuestroArreglo()
 }
