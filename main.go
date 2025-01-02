@@ -1,6 +1,9 @@
 package main
 
-import "github.com/JrGustavo/practice_go/arreglos_slices"
+import (
+	e "github.com/JrGustavo/practice_go/ejer_interfaces"
+	"github.com/JrGustavo/practice_go/modelos"
+)
 
 func main() {
 	//	//estado, texto := variables.ConviertoATexto(1588)
@@ -36,5 +39,14 @@ func main() {
 
 	//funciones.LlamarClosure()
 
-	arreglos_slices.MuestroArreglo()
+	//arreglos_slices.MuestroArreglo()
+
+	//mapas.MostrarMapas()
+
+	Junior := new(modelos.Hombre)
+	e.HumanosRespirando(Junior)
+
+	Maria := new(modelos.Mujer)
+	e.HumanosRespirando(Maria)
+
 }
