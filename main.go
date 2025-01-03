@@ -1,9 +1,6 @@
 package main
 
-import (
-	e "github.com/JrGustavo/practice_go/ejer_interfaces"
-	"github.com/JrGustavo/practice_go/modelos"
-)
+import "github.com/JrGustavo/practice_go/middleware"
 
 func main() {
 	//	//estado, texto := variables.ConviertoATexto(1588)
@@ -43,10 +40,23 @@ func main() {
 
 	//mapas.MostrarMapas()
 
-	Junior := new(modelos.Hombre)
-	e.HumanosRespirando(Junior)
+	//Junior := new(modelos.Hombre)
+	//e.HumanosRespirando(Junior)
+	//
+	//Maria := new(modelos.Mujer)
+	//e.HumanosRespirando(Maria)
 
-	Maria := new(modelos.Mujer)
-	e.HumanosRespirando(Maria)
+	//defer_panic.EjemploPanic()
+
+	//canal1 := make(chan bool)
+	//go goroutines.MiNombrelento("JrGustavo", canal1)
+	//defer func() {
+	//	<-canal1
+	//}()
+	//fmt.Println("Estoy aqui")
+
+	//webserver.MiWebServer()
+
+	middleware.MiMidleware()
 
 }
